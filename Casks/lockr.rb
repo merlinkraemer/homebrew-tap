@@ -1,6 +1,6 @@
 cask "lockr" do
-  version "1.1.1"
-  sha256 "17895af0437ec42f6c32012f3bfc697696916b9d27023254ec97b8219e071041"
+  version "1.2.0"
+  sha256 "958ca3455480f99c8e1e849786a597dd0c290709b8a799b231b01b25fd0f1d11"
 
   url "https://github.com/merlinkraemer/lockr/releases/download/v#{version}/Lockr-#{version}.zip"
   name "Lockr"
