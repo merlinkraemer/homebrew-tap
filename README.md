@@ -1,11 +1,11 @@
 # homebrew-tap
 
-Homebrew formulae by Merlin Krämer.
+Homebrew casks by Merlin Krämer.
 
 ```bash
-brew install merlinkraemer/tap/lockr
+brew install --cask merlinkraemer/tap/lockr
 ```
 
-| Formula | Description |
+| Cask | Description |
 | --- | --- |
-| [lockr](https://github.com/merlinkraemer/lockr) | Minimal i3lock-style lock screen for macOS that keeps your Mac awake |
+| [lockr](https://github.com/merlinkraemer/lockr) | Minimal lock screen for macOS that keeps the Mac awake |
