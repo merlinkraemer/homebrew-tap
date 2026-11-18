@@ -2,13 +2,13 @@ cask "bounce" do
   version "1.0.0"
   sha256 "36d34600a74c09a324ca4cda7ced07e4c6bc069f8abb62aba78e5184f93a9f37"
 
-  url "https://github.com/merlinkraemer/bounce/releases/download/v#{version}/Bounce-#{version}.dmg"
+  url "https://onbounce.app/api/download?src=brew&v=#{version}"
   name "Bounce"
   desc "Music library for unfinished tracks, synced to your iPhone"
   homepage "https://onbounce.app"
 
   livecheck do
-    url :url
+    url "https://github.com/merlinkraemer/bounce"
     strategy :github_latest
   end
 
