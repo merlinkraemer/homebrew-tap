@@ -1,6 +1,6 @@
 cask "bounce" do
-  version "1.0.0"
-  sha256 "36d34600a74c09a324ca4cda7ced07e4c6bc069f8abb62aba78e5184f93a9f37"
+  version "1.0.1"
+  sha256 "f714e043f5a6742d26d01189c18ebcedd5f9dea3966124b828e06c74bae1ea68"
 
   url "https://onbounce.app/api/download?src=brew&v=#{version}"
   name "Bounce"
